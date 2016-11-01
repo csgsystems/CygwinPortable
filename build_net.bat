@@ -2,8 +2,8 @@
 
 SET ILMERGE=0
 SET NSISLAUNCHER=1
-SET SEVENZIP=1
-SET PORTABLEAPPSINSTALLER=1
+SET SEVENZIP=0
+SET PORTABLEAPPSINSTALLER=0
 SET CONEMU=1
 SET CYGWIN=1
 
@@ -105,4 +105,3 @@ if %PORTABLEAPPSINSTALLER%==1 (
 REM ---------------------------------------------------------------------
 echo Ready
 REM ---------------------------------------------------------------------
-pause
